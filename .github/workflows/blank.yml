@@ -44,5 +44,6 @@ jobs:
           echo Hello from Github Actions
           echo ths is a new comment
           pwd
+          ls
       - name: print linux info
         run: cat /etc/lsb-release
